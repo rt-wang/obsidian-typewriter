@@ -325,10 +325,10 @@ body {
 .theme-light {
   --background-primary: hsl(
     calc(var(--base-h) + 44),
-    calc(var(--base-s) + 34%),
-    calc(var(--base-l) - 9%)
+    calc(var(--base-s) + 30%),
+    calc(var(--base-l) - 16%)
   ); /* #fcf5e4 */
-  --background-primary-alt: hsl(44, 34%, 87%); /* #afa898 */
+  --background-primary-alt: hsl(44, 30%, 80%); /* #afa898 */
   --background-secondary: hsl(
     calc(var(--base-h) + 42),
     calc(var(--base-s) + 34%),
