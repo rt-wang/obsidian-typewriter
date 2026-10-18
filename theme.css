@@ -956,3 +956,14 @@ community:
 - obsidian-plugin-todo
 */
 /* }}} */
+
+/* match the top-left corner to the editor when the left sidebar is collapsed */
+.theme-light .workspace-ribbon.mod-left.is-collapsed {
+  --titlebar-background: var(--background-primary);
+  --titlebar-background-focused: var(--background-primary);
+  --tab-container-background: var(--background-primary);
+}
+.theme-light .workspace-ribbon.mod-left.is-collapsed:before,
+.theme-light .workspace-ribbon.mod-left.is-collapsed .sidebar-toggle-button {
+  background-color: var(--background-primary) !important;
+}
