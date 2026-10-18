@@ -110,21 +110,9 @@ body {
     0
   );
   --background-translucent: rgba(255, 255, 255, 0.85);
-  --background-modifier-border: hsl(
-    var(--base-h),
-    var(--base-s),
-    calc(var(--base-l) - 6%)
-  );
-  --background-modifier-border-hover: hsl(
-    var(--base-h),
-    var(--base-s),
-    calc(var(--base-l) - 12%)
-  );
-  --background-modifier-border-focus: hsl(
-    var(--base-h),
-    var(--base-s),
-    calc(var(--base-l) - 20%)
-  );
+  --background-modifier-border: hsl(30, 20%, 70%);
+  --background-modifier-border-hover: hsl(30, 18%, 62%);
+  --background-modifier-border-focus: hsl(30, 18%, 54%);
   --background-modifier-form-field: hsl(
     var(--base-h),
     var(--base-s),
