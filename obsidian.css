@@ -323,18 +323,10 @@ body {
 
 /* --------- LIGHT THEME ---------- */
 .theme-light {
-  --background-primary: hsl(
-    calc(var(--base-h) + 44),
-    calc(var(--base-s) + 79%),
-    calc(var(--base-l) - 2%)
-  ); /* #fcf5e4 */
-  --background-primary-alt: #fcf5e4; /* #afa898 */
-  --background-secondary: hsl(
-    calc(var(--base-h) + 42),
-    calc(var(--base-s) + 34%),
-    calc(var(--base-l) - 12%)
-  );
-  --background-secondary-alt: #fcf5e4;
+  --background-primary: hsl(32, 30%, 86%); /* #fcf5e4 */
+  --background-primary-alt: hsl(32, 30%, 86%); /* #afa898 */
+  --background-secondary: hsl(30, 24%, 76%);
+  --background-secondary-alt: hsl(32, 30%, 86%);
   --background-transparent: hsla(
     var(--base-h),
     var(--base-s),
@@ -382,10 +374,10 @@ body {
     var(--accent-s),
     calc(var(--accent-l) - 10%)
   );
-  --text-normal: hsl(var(--base-h), var(--base-s), var(--base-d));
-  --text-muted: hsl(var(--base-h), var(--base-s), calc(var(--base-d) + 20%));
+  --text-normal: hsl(24, 18%, 13%);
+  --text-muted: hsl(24, 10%, 32%);
   --text-muted-rgb: rgb(99, 99, 99);
-  --text-faint: hsl(var(--base-h), var(--base-s), calc(var(--base-d) + 47%));
+  --text-faint: hsl(24, 8%, 52%);
   --text-error: #800000;
   --text-error-hover: #990000;
 

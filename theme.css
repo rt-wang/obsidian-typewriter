@@ -99,18 +99,10 @@ body {
 
 /* +++ LIGHT MODE {{{ */
 .theme-light {
-  --background-primary: hsl(
-    calc(var(--base-h) + 44),
-    calc(var(--base-s) + 79%),
-    calc(var(--base-l) - 2%)
-  );
-  --background-primary-alt: #fcf5e4;
-  --background-secondary: hsl(
-    calc(var(--base-h) + 42),
-    calc(var(--base-s) + 34%),
-    calc(var(--base-l) - 12%)
-  );
-  --background-secondary-alt: #fcf5e4;
+  --background-primary: hsl(32, 30%, 86%);
+  --background-primary-alt: hsl(32, 30%, 86%);
+  --background-secondary: hsl(30, 24%, 76%);
+  --background-secondary-alt: hsl(32, 30%, 86%);
   --background-transparent: hsla(
     var(--base-h),
     var(--base-s),
@@ -170,9 +162,9 @@ body {
     var(--theme-accent-s),
     calc(var(--theme-accent-l) - 10%)
   );
-  --text-normal: hsl(var(--base-h), var(--base-s), var(--base-d));
-  --text-muted: hsl(var(--base-h), var(--base-s), calc(var(--base-d) + 20%));
-  --text-faint: hsl(var(--base-h), var(--base-s), calc(var(--base-d) + 47%));
+  --text-normal: hsl(24, 18%, 13%);
+  --text-muted: hsl(24, 10%, 32%);
+  --text-faint: hsl(24, 8%, 52%);
 
   --text-highlight-bg: hsla(53, 100%, 50%, 0.5);
   --text-highlight-bg-active: rgba(255, 128, 0, 0.4);
@@ -204,7 +196,7 @@ body {
 
   --graph-line-color: #c0c9ce;
   
-  --code-background: #eee8d5;
+  --code-background: hsl(30, 26%, 79%);
 }
 /* }}} */
 
