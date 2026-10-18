@@ -324,11 +324,11 @@ body {
 /* --------- LIGHT THEME ---------- */
 .theme-light {
   --background-primary: hsl(
-    calc(var(--base-h) + 44),
-    calc(var(--base-s) + 79%),
-    calc(var(--base-l) - 2%)
+    calc(var(--base-h) + 32),
+    calc(var(--base-s) + 22%),
+    calc(var(--base-l) - 16%)
   ); /* #fcf5e4 */
-  --background-primary-alt: #fcf5e4; /* #afa898 */
+  --background-primary-alt: hsl(32, 22%, 80%); /* #afa898 */
   --background-secondary: hsl(
     calc(var(--base-h) + 42),
     calc(var(--base-s) + 34%),
