@@ -102,9 +102,9 @@ body {
   --background-primary: hsl(
     calc(var(--base-h) + 32),
     calc(var(--base-s) + 22%),
-    calc(var(--base-l) - 28%)
+    calc(var(--base-l) - 22%)
   );
-  --background-primary-alt: hsl(32, 22%, 68%);
+  --background-primary-alt: hsl(32, 22%, 74%);
   --background-secondary: hsl(
     calc(var(--base-h) + 42),
     calc(var(--base-s) + 34%),
