@@ -101,16 +101,16 @@ body {
 .theme-light {
   --background-primary: hsl(
     calc(var(--base-h) + 44),
-    calc(var(--base-s) + 79%),
-    calc(var(--base-l) - 5%)
+    calc(var(--base-s) + 34%),
+    calc(var(--base-l) - 9%)
   );
-  --background-primary-alt: #faf1d6;
+  --background-primary-alt: hsl(44, 34%, 87%);
   --background-secondary: hsl(
     calc(var(--base-h) + 42),
     calc(var(--base-s) + 34%),
     calc(var(--base-l) - 12%)
   );
-  --background-secondary-alt: #faf1d6;
+  --background-secondary-alt: #fcf5e4;
   --background-transparent: hsla(
     var(--base-h),
     var(--base-s),
