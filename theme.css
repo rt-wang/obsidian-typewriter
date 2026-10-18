@@ -100,11 +100,11 @@ body {
 /* +++ LIGHT MODE {{{ */
 .theme-light {
   --background-primary: hsl(
-    calc(var(--base-h) + 20),
-    calc(var(--base-s) + 24%),
-    calc(var(--base-l) - 24%)
+    calc(var(--base-h) + 24),
+    calc(var(--base-s) + 20%),
+    calc(var(--base-l) - 30%)
   );
-  --background-primary-alt: hsl(20, 24%, 72%);
+  --background-primary-alt: hsl(24, 20%, 66%);
   --background-secondary: hsl(
     calc(var(--base-h) + 42),
     calc(var(--base-s) + 34%),
